@@ -64,6 +64,10 @@ p {
     margin-bottom: 10px;
 }
 
+.projectImg {
+    width: 100%;
+}
+
 .marginTop40px {
     margin-top: 40px;
 }
@@ -92,6 +96,10 @@ p {
 
     .marginBottom80px {
         margin-bottom: 40px;
+    }
+
+    .marginBottom40px {
+        margin-bottom: 20px;
     }
 
 }
