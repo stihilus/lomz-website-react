@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --black: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    padding: 0 3% 0px 3%;
+    font-size: min(max(0.8rem, 4vw), 37px);
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    color: var(--black); 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+code {
+  font-family: 'Work Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+    padding: 0px;
+    margin: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.sectionFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navLogoDiv {
+    width: 50%;
+    padding: 40px 0 0 0;
+}
+
+.navMenuDiv {
+    width: 50%;
+    padding: 40px 0 0 0;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.linkUnderline {
+    color: var(--black);
+}
+
+.divW50 {
+    width: 50%;
+}
+
+.projectsDiv {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.projectsImg {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.marginTop40px {
+    margin-top: 40px;
+}
+
+.marginBottom40px {
+    margin-bottom: 40px;
+}
+
+.marginTop80px {
+    margin-top: 80px;
+}
+
+.marginBottom80px {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 500px) { 
+
+    .projectsImg {
+        width: 100%;
+    }
+
+    .marginTop40px {
+        margin-top: 20px;
+    }
+
+    .marginBottom80px {
+        margin-bottom: 40px;
+    }
+
 }
