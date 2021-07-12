@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import Top from '../components/Top';
 
 import ns02 from '../images/ns02.png';
 import ns03 from '../images/ns03.png';
@@ -45,6 +46,7 @@ function Drugstore() {
         <img className="projectImg" src={ns15} alt="noise"></img>
         <img className="projectImg" src={ns16} alt="noise"></img>
         <img className="projectImg" src={ns17} alt="noise"></img>
+        <Top />
         </div>
     </div>
     </div>

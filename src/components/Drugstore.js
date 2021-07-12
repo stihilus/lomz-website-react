@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import Top from '../components/Top';
 
 import ds01 from '../images/ds01.gif';
 import ds02 from '../images/ds02.png';
@@ -24,7 +25,7 @@ function Drugstore() {
         <p className="marginBottom40px">Design concept</p>
         <p className="marginBottom40px">My main challenge was to make the animations that follow the user clear from desktop all the way to mobile screen sizes and we believe we have done just that.</p>
     </div>
-    
+
     <div className="projectsDiv marginBottom80px">
         <div>
         <img className="projectImg" src={ds01} alt="drugstore"></img>
@@ -41,9 +42,11 @@ function Drugstore() {
         <img className="projectImg" src={ds12} alt="drugstore"></img>
         <img className="projectImg" src={ds13} alt="drugstore"></img>
         <img className="projectImg" src={ds14} alt="drugstore"></img>
+        <Top />
         </div>
     </div>
     </div>
+
   );
 }
 

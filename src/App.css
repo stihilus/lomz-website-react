@@ -9,10 +9,10 @@
 body {
     margin: 0;
     padding: 0 3% 0px 3%;
-    font-size: min(max(0.8rem, 4vw), 37px);
+    font-size: min(max(0.8rem, 4vw), 30px);
     font-family: 'Work Sans', sans-serif;
     text-decoration: none;
-    color: var(--black); 
+    color: var(--black);
 }
 
 code {
@@ -43,6 +43,16 @@ p {
 .link {
     text-decoration: none;
     color: var(--black);
+}
+
+.top {
+    text-decoration: none;
+    color: var(--black);
+    border: 3px;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: var(--black);
+    padding: 7px 15px;
 }
 
 .linkUnderline {
@@ -84,7 +94,7 @@ p {
     margin-bottom: 80px;
 }
 
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
 
     .projectsImg {
         width: 100%;
