@@ -19,7 +19,7 @@ function Home() {
         <p className="marginBottom40px">Senior Designer based in Belgrade, Serbia. Currently at <a className="linkUnderline" href="https://www.defisaver.com">DeFi Saver</a>.</p>
         <p><a className="linkUnderline" href="mailto:stihilus@gmail.com">Contact</a> for freelance opportunities.</p>
     </div>
-    
+
     <div className="projectsDiv marginBottom80px">
         <div>
             <Link className="link" to='/drugstore'>
@@ -37,7 +37,7 @@ function Home() {
             <Link className="link" to='/drugstore'>
               <img className="projectsImg" src={sca} alt="sca"></img>
             </Link>
-            <Link className="link" to='/drugstore'>
+            <Link className="link" to='/noise'>
               <img className="projectsImg" src={noise} alt="noise"></img>
             </Link>
             <Link className="link" to='/drugstore'>
