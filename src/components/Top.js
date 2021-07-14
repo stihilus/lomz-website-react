@@ -4,11 +4,14 @@ import { Link } from 'react-router-dom';
 
 function Top() {
     return (
-      <div className="sectionFlex marginBottom40px marginTop40px">
+      <div className="sectionFlex marginTop40px">
             <div className="divW50">
             </div>
             <div className="divW50">
-                <a className="top" href="https://www.instagram.com/lomz.art/">Scroll to top</a>
+                <a className="link" href="https://www.instagram.com/lomz.art/">Scroll to top, </a>
+                <Link className="link" to='/'>
+                    <a>Index</a>
+                </Link>
             </div>
       </div>
     );

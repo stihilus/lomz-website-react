@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import Top from '../components/Top';
+import ProjectsList from '../components/ProjectsList';
 
 import ds01 from '../images/ds01.gif';
 import ds02 from '../images/ds02.png';
@@ -43,6 +44,7 @@ function Drugstore() {
         <img className="projectImg" src={ds13} alt="drugstore"></img>
         <img className="projectImg" src={ds14} alt="drugstore"></img>
         <Top />
+        <ProjectsList />
         </div>
     </div>
     </div>

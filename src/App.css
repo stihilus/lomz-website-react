@@ -45,18 +45,14 @@ p {
     color: var(--black);
 }
 
-.top {
-    text-decoration: none;
-    color: var(--black);
-    border: 3px;
-    border-style: solid;
-    border-radius: 100px;
-    border-color: var(--black);
-    padding: 7px 15px;
-}
-
 .linkUnderline {
     color: var(--black);
+}
+
+.horisontalLine {
+  height: 2px;
+  width: 100%;
+  background-color: var(--black);
 }
 
 .divW50 {
@@ -76,6 +72,14 @@ p {
 
 .projectImg {
     width: 100%;
+}
+
+.marginBottom10px {
+    margin-bottom: 10px;
+}
+
+.marginTop10px {
+    margin-top: 10px;
 }
 
 .marginTop40px {
@@ -110,6 +114,10 @@ p {
 
     .marginBottom40px {
         margin-bottom: 20px;
+    }
+
+    .horisontalLine {
+      height: 1px;
     }
 
 }
