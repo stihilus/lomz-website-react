@@ -8,7 +8,7 @@ function Top() {
             <div className="divW50">
             </div>
             <div className="divW50">
-                <a className="link" href="https://www.instagram.com/lomz.art/">Scroll to top, </a>
+                <a className="link" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Scroll to top, </a>
                 <Link className="link" to='/'>
                     <a>Index</a>
                 </Link>
