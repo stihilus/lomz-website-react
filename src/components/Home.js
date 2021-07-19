@@ -20,6 +20,9 @@ function Home() {
         <p><a className="linkUnderline" href="mailto:stihilus@gmail.com">Contact</a> for freelance opportunities.</p>
     </div>
 
+    <div>
+    </div>
+
     <div className="projectsDiv marginBottom80px">
         <div>
             <Link className="link" to='/drugstore'>
