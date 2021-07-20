@@ -98,6 +98,15 @@ p {
     margin-bottom: 80px;
 }
 
+.logo {
+    width: 134px;
+}
+
+.arrowDown {
+    width: 54px;
+    height: 30px;
+}
+
 @media (max-width: 500px) {
 
     .projectsImg {
@@ -118,6 +127,10 @@ p {
 
     .horisontalLine {
       height: 1px;
+    }
+
+    .arrowDown {
+        opacity: 0;
     }
 
 }

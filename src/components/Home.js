@@ -1,15 +1,19 @@
 import React from 'react';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import ProjectsListHome from '../components/ProjectsListHome';
 
 import ash from '../images/ash.jpg';
 import boomfestival from '../images/boomfestival.jpg';
 import cryptographics from '../images/cryptographics.jpg';
 import drugstore from '../images/drugstore.jpg';
-import noise from '../images/noise.jpg';
-import sca from '../images/sca.jpg';
-import uniondirect from '../images/uniondirect.jpg';
-import zinemaker from '../images/zinemaker.jpg';
+
+import presscyclage from '../images/Presscyclage.jpg';
+import sekvencaOstatka from '../images/SekvencaOstatka.jpg';
+import kolorfon from '../images/Kolorfon.jpg';
+import generatedp5jsPortraits from '../images/Generatedp5jsPortraits.jpg';
+
+import arrowDown from '../images/ArrowDown.svg';
 
 function Home() {
   return (
@@ -21,6 +25,14 @@ function Home() {
     </div>
 
     <div>
+      <div className="sectionFlex marginBottom10px marginTop10px">
+            <div className="divW50">
+              <p>Design:</p>
+            </div>
+            <div className="divW50">
+              <img className="projectsImg arrowDown" src={arrowDown} alt="Down"></img>
+            </div>
+      </div>
     </div>
 
     <div className="projectsDiv marginBottom80px">
@@ -37,20 +49,37 @@ function Home() {
             <Link className="link" to='/drugstore'>
               <img className="projectsImg" src={ash} alt="ash"></img>
             </Link>
+        </div>
+    </div>
+
+    <div>
+      <div className="sectionFlex marginBottom10px marginTop10px">
+            <div className="divW50">
+              <p>Multimedia:</p>
+            </div>
+            <div className="divW50">
+              <img className="projectsImg arrowDown" src={arrowDown} alt="Down"></img>
+            </div>
+      </div>
+    </div>
+
+    <div className="projectsDiv marginBottom80px">
+        <div>
             <Link className="link" to='/drugstore'>
-              <img className="projectsImg" src={sca} alt="sca"></img>
-            </Link>
-            <Link className="link" to='/noise'>
-              <img className="projectsImg" src={noise} alt="noise"></img>
+              <img className="projectsImg" src={presscyclage} alt="drugstore"></img>
             </Link>
             <Link className="link" to='/drugstore'>
-              <img className="projectsImg" src={zinemaker} alt="zinemaker"></img>
+              <img className="projectsImg" src={kolorfon} alt="boomfestival"></img>
             </Link>
             <Link className="link" to='/drugstore'>
-              <img className="projectsImg" src={uniondirect} alt="uniondirect"></img>
+              <img className="projectsImg" src={sekvencaOstatka} alt="cryptographics"></img>
+            </Link>
+            <Link className="link" to='/drugstore'>
+              <img className="projectsImg" src={generatedp5jsPortraits} alt="ash"></img>
             </Link>
         </div>
     </div>
+    <ProjectsListHome />
     </div>
   );
 }
