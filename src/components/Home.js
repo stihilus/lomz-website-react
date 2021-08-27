@@ -40,8 +40,8 @@ function Home() {
             <Link className="link" to='/drugstore'>
               <img className="projectsImg" src={drugstore} alt="drugstore"></img>
             </Link>
-            <Link className="link" to='/drugstore'>
-              <img className="projectsImg" src={boomfestival} alt="boomfestival"></img>
+            <Link className="link" to='/cryptographics'>
+              <img className="projectsImg" src={cryptographics} alt="cryptographics"></img>
             </Link>
             <Link className="link" to='/drugstore'>
               <img className="projectsImg" src={cryptographics} alt="cryptographics"></img>

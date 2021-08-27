@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Drugstore from './components/Drugstore';
 import Noise from './components/Noise';
+import Cryptographics from './components/Cryptographics';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/drugstore" component={Drugstore} />
         <Route path="/noise" component={Noise} />
+        <Route path="/cryptographics" component={Cryptographics} />
         <Footer />
         </switch>
       </div>
